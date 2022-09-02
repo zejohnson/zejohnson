@@ -1,0 +1,47 @@
+###Webscraping Oregon Legislation Using R###
+###PLEASE READ ME - ALWAYS MAKE SURE YOU HAVE PERMISSION TO WEB SCRAPE BEFORE USING THIS CODE###
+
+# set options
+options(stringsAsFactors = F)
+options("scipen" = 100, "digits" = 4)
+
+# load packages
+library(tidyverse)
+library(rvest)
+library(readtext)
+library(webdriver)
+library(webshot)
+library(wdman)
+library(processx)
+library(renv)
+library(dplyr)
+
+# define url
+url <- "https://www.oregonlegislature.gov/bills_laws/listbills/2022R1SessionBills.html"
+# download content
+webc <- rvest::read_html(url)
+# inspect
+webc
+
+# View All Links
+webc %>%
+  # extract paragraphs
+  rvest::html_nodes("p") %>%
+  # extract text
+  rvest::html_text() -> webtxt
+# inspect
+head(webtxt)
+
+pjs_instance <- run_phantomjs()
+pjs_session <- Session$new(port = pjs_instance$port)
+pjs_session$go(url)
+# render page
+rendered_source <- pjs_session$getSource()
+# download text and parse the source code into an XML object
+html_document <- read_html(rendered_source)
+
+links <- html_document %>%
+  html_nodes("") %>%
+  html_attr(name = "href")
+# inspect 
+links
