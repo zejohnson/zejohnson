@@ -1,5 +1,5 @@
 - 👋 Hi, I’m @zejohnson. I am a graduate student at the University of Southern California studying quantitative methods in Political Science.
 - 👀 I’m interested in causal inference, applied Bayesian methods, and latent variable analysis.
 - 🌱 I’m currently learning machine learning methods such as lasso regression and random forests.
-- 💞️ I’m looking to collaborate on data projects related to elections.
+- 💞️ I’m looking to collaborate on data projects related to elections and/or voter behavior.
 - 📫 You can reach me on this platform or over email: zejohnso@usc.edu
