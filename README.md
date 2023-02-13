@@ -1,5 +1,5 @@
 - 👋 Hi, I’m @zejohnson. I am a graduate student at the University of Southern California studying computational methods and Political Science.
-- 👀 I’m interested in natural language processing, machine learning, optimization theory, and latent variable analysis.
+- 👀 I’m interested in natural language processing, text analysis, machine learning, optimization theory, and latent variable analysis.
 - 🌱 I’m currently learning topic modelling.
 - 💞️ I’m looking to collaborate on projects concerning text analysis in the political sphere.
 - 📫 You can reach me on this platform or over email: zejohnso@usc.edu
