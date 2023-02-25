@@ -1,5 +1,5 @@
 - 👋 Hi, I’m Zach Johnson. I am a current master's student and incoming doctoral candidate at the University of Southern California.
-- 👀 I study computational methods in computer science, with interests in text analysis, machine learning, and optimization theory.
+- 👀 I study computational methods in political science, with interests in text analysis, machine learning, and optimization theory.
 - 🌱 I’m currently learning topic modelling.
 - 💞️ I’m looking to collaborate on projects concerning text analysis in the political sphere.
 - 📫 You can reach me on this platform or over email: zejohnso [at] usc [dot] edu.
